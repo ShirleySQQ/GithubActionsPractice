@@ -24,7 +24,7 @@ public class Main {
         int lastrowNum = sheetTest.getLastRowNum();
         System.out.println(lastrowNum);
         int firstrowNum = sheetTest.getFirstRowNum();
-        System.out.println(firstrowNum);
+        System.out.println("hello"+firstrowNum);
         int recordsNum = lastrowNum-firstrowNum;
 
         for (int i = 1;i<=recordsNum;i++){
